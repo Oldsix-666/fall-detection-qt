@@ -1,0 +1,40 @@
+# ---------- qmake / Qt 构建产物 ----------
+build/
+build-*/
+*.pro.user
+*.pro.user.*
+.qmake.stash
+Makefile
+Makefile.*
+*.o
+*.obj
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# ---------- 可执行与调试文件 ----------
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.Debug
+*.Release
+
+# ---------- Qt Creator 本地配置 ----------
+.qtcreator/
+CMakeLists.txt.user*
+
+# ---------- 系统文件 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 编辑器 ----------
+.vscode/
+.idea/
+
+# ---------- 日志 ----------
+*.log
